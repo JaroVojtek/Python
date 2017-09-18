@@ -1,0 +1,8 @@
+WARNING:root:This is a warning message
+INFO:root:This is Info message
+ERROR:root:Error message
+09/16/2017 14:29:35 - LoggerDemoConf - DEBUG - debug message
+09/16/2017 14:29:35 - LoggerDemoConf - INFO - info message
+09/16/2017 14:29:35 - LoggerDemoConf - WARNING - warn message
+09/16/2017 14:29:35 - LoggerDemoConf - ERROR - error message
+09/16/2017 14:29:35 - LoggerDemoConf - CRITICAL - critical message

@@ -1,0 +1,37 @@
+1505995816325	geckodriver	INFO	geckodriver 0.18.0
+1505995816366	geckodriver	INFO	Listening on 127.0.0.1:62873
+1505995818496	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505995821392	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505995823266	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+[GPU 7856] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1505995836009	Marionette	INFO	Listening on port 62880
+1505995836068	Marionette	INFO	Listening on port 62880
+1505995836330	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505995836469	Marionette	DEBUG	loaded listener.js
+1505995838164	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505995845491	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505995845492	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505995849341	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1505995851811	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1505995851817	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1505995851818	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1505995851824	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1505995852297	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1505995852840	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/"
+1505995853013	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505995857703	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1505995859250	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1505995859255	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1505995860154	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1505995860193	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967312"
+1505995860195	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967313"
+1505995860776	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1505995860780	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1505995860781	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1505995860783	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1505995861009	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[GPU 7856] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

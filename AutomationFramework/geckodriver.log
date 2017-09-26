@@ -74,3 +74,754 @@
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1506067330269	geckodriver	INFO	geckodriver 0.18.0
+1506067330309	geckodriver	INFO	Listening on 127.0.0.1:60169
+1506067332476	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506067334833	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506067336499	Marionette	INFO	Enabled via --marionette
+1506067346422	Marionette	INFO	Listening on port 60176
+1506067346504	Marionette	INFO	Listening on port 60176
+1506067346585	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506067346688	Marionette	DEBUG	loaded listener.js
+1506067347056	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506067358683	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506067358684	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506067362066	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506067364796	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506067364817	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506067364897	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506067364902	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506067364945	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:290:7
+element.find/</findElements<@chrome://marionette/content/element.js:256:17
+evalFn@chrome://marionette/content/wait.js:70:7
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:290:7
+element.find/</findElements<@chrome://marionette/content/element.js:256:17
+evalFn@chrome://marionette/content/wait.js:70:7
+
+*************************
+Marionette threw an error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: chrome://marionette/content/proxy.js :: sendReply_ :: line 195"  data: no]
+sendReply_@chrome://marionette/content/proxy.js:195:5
+reply@chrome://marionette/content/proxy.js:175:7
+sendToServer@chrome://marionette/content/listener.js:641:3
+sendError@chrome://marionette/content/listener.js:675:3
+dispatch/</<@chrome://marionette/content/listener.js:443:40
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:925:21
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+
+[Parent 10384] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506067383060	geckodriver	INFO	geckodriver 0.18.0
+1506067383091	geckodriver	INFO	Listening on 127.0.0.1:60273
+1506067385184	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506067385943	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506067386892	Marionette	INFO	Enabled via --marionette
+[GPU 7784] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506067389765	Marionette	INFO	Listening on port 60281
+1506067389861	Marionette	INFO	Listening on port 60281
+1506067390686	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506067390798	Marionette	DEBUG	loaded listener.js
+1506067392183	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506067401487	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506067401487	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506067403073	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506067404653	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506067404664	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506067404815	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506067404822	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506067406471	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[Child 8464] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8464] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+StartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506067452780	Marionette	INFO	Enabled via --marionette
+[GPU 5528] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11600] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506067455920	Marionette	INFO	Listening on port 60419
+1506067456083	Marionette	INFO	Listening on port 60419
+1506067456550	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506067456618	Marionette	DEBUG	loaded listener.js
+1506067457535	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506067467272	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506067467273	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506067469176	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506067472360	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506067472365	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506067472366	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506067472370	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506067472445	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ng on 127.0.0.1:60613
+1506067755587	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506067756373	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506067757476	Marionette	INFO	Enabled via --marionette
+1506067760546	Marionette	INFO	Listening on port 60620
+1506067760580	Marionette	INFO	Listening on port 60620
+1506067760918	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506067760996	Marionette	DEBUG	loaded listener.js
+1506067761526	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506067772361	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506067772361	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506067778544	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506067781405	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506067781409	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506067781410	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506067781415	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506067782074	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506067782079	Marionette	DEBUG	Received DOM event "pageshow" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506067782568	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506067782571	Marionette	DEBUG	Received DOM event "pageshow" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506067782975	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[GPU 11560] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 11560] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1506067890089	geckodriver	INFO	geckodriver 0.18.0
+1506067890120	geckodriver	INFO	Listening on 127.0.0.1:60776
+1506067892203	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506067892993	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506067893877	Marionette	INFO	Enabled via --marionette
+[Parent 1580] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506067896727	Marionette	INFO	Listening on port 60783
+1506067896748	Marionette	INFO	Listening on port 60783
+1506067897613	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506067897714	Marionette	DEBUG	loaded listener.js
+1506067898365	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506067908940	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506067908941	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506067910988	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506067913623	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506067913630	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506067913731	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506067913735	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506067913789	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[GPU 13080] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8856] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+dStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506068059303	Marionette	INFO	Enabled via --marionette
+[GPU 8012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506068062455	Marionette	INFO	Listening on port 60895
+1506068062475	Marionette	INFO	Listening on port 60895
+1506068063294	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506068063408	Marionette	DEBUG	loaded listener.js
+1506068063771	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506068074389	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506068074389	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506068077731	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506068079814	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506068079840	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506068079857	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506068079860	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506068079911	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[GPU 8012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 8012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506068644994	Marionette	INFO	Enabled via --marionette
+1506068648047	Marionette	INFO	Listening on port 61181
+[Child 5308] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5308] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506068648149	Marionette	INFO	Listening on port 61181
+1506068648752	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506068648983	Marionette	DEBUG	loaded listener.js
+1506068650111	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506068661031	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506068661032	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506068663391	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506068666689	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506068666691	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506068666692	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506068666695	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506068666724	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[GPU 9532] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+8712882	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506068713963	Marionette	INFO	Enabled via --marionette
+[Parent 14288] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506068717679	Marionette	INFO	Listening on port 61260
+1506068717800	Marionette	INFO	Listening on port 61260
+1506068718500	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506068718633	Marionette	DEBUG	loaded listener.js
+1506068719244	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506068729433	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506068729433	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506068733505	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506068736846	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506068736856	Marionette	DEBUG	Received DOM event "pageshow" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506068736926	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506068736929	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506068736931	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506068736934	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506068737542	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506068737546	Marionette	DEBUG	Received DOM event "pageshow" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506068737879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1506068738333	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[GPU 11104] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 11104] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14288] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13428] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 11104] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+e/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506068843412	Marionette	INFO	Enabled via --marionette
+1506068846511	Marionette	INFO	Listening on port 61412
+1506068846567	Marionette	INFO	Listening on port 61412
+1506068846881	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506068846969	Marionette	DEBUG	loaded listener.js
+1506068847813	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506068858367	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506068858368	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506068860433	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506068862784	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506068862803	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506068862805	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506068862808	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506068862857	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1506069150079	geckodriver	INFO	geckodriver 0.18.0
+1506069150111	geckodriver	INFO	Listening on 127.0.0.1:61640
+1506069152178	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506069152727	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506069153655	Marionette	INFO	Enabled via --marionette
+1506069156533	Marionette	INFO	Listening on port 61646
+1506069156634	Marionette	INFO	Listening on port 61646
+1506069157569	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506069157685	Marionette	DEBUG	loaded listener.js
+1506069158409	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506069172997	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506069172998	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506069174638	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506069177059	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069177068	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069177128	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069177132	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069177759	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[GPU 9256] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 9256] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 9256] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1506069375451	geckodriver	INFO	geckodriver 0.18.0
+1506069375478	geckodriver	INFO	Listening on 127.0.0.1:61758
+1506069377581	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506069378208	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506069379256	Marionette	INFO	Enabled via --marionette
+[GPU 13708] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11648] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506069382338	Marionette	INFO	Listening on port 61771
+1506069382431	Marionette	INFO	Listening on port 61771
+1506069382949	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506069383091	Marionette	DEBUG	loaded listener.js
+1506069383794	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506069394257	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506069394258	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506069396028	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506069398631	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069398635	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069398636	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069398639	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069398691	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[GPU 13708] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1506069734628	geckodriver	INFO	geckodriver 0.18.0
+1506069734643	geckodriver	INFO	Listening on 127.0.0.1:61993
+1506069736745	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506069737281	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506069738185	Marionette	INFO	Enabled via --marionette
+[Parent 7324] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506069740854	Marionette	INFO	Listening on port 61999
+1506069740899	Marionette	INFO	Listening on port 61999
+1506069741005	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506069741147	Marionette	DEBUG	loaded listener.js
+1506069741327	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506069752802	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506069752803	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506069754441	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506069756925	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069756932	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069757616	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069757620	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069757663	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[GPU 5188] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5188] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7324] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5188] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+sm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506069863111	Marionette	INFO	Enabled via --marionette
+[GPU 7360] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506069865906	Marionette	INFO	Listening on port 62086
+1506069865958	Marionette	INFO	Listening on port 62086
+1506069865974	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506069866221	Marionette	DEBUG	loaded listener.js
+1506069866436	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506069868535	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506069868536	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506069870147	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506069873154	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069873160	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069873162	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069873166	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069873869	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506069874268	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/"
+1506069874285	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/"
+1506069874475	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506069877214	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506069878770	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506069878774	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506069879402	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506069879509	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967312"
+1506069879512	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967313"
+1506069879842	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069879846	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069879846	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069879849	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069879900	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[Child 6248] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1506069919175	geckodriver	INFO	geckodriver 0.18.0
+1506069919208	geckodriver	INFO	Listening on 127.0.0.1:62168
+1506069921280	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506069921822	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506069922723	Marionette	INFO	Enabled via --marionette
+[GPU 10108] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7800] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506069925522	Marionette	INFO	Listening on port 62174
+1506069925563	Marionette	INFO	Listening on port 62174
+1506069926677	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506069926781	Marionette	DEBUG	loaded listener.js
+1506069927161	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506069937419	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506069937419	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506069939072	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506069941792	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069941799	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069941802	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069941806	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069942734	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506069942738	Marionette	DEBUG	Received DOM event "pageshow" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506069943244	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506069943754	Marionette	DEBUG	Received DOM event "pagehide" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506069943756	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967307"
+1506069943895	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506069946487	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506069948158	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506069948159	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506069948949	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506069949050	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967311"
+1506069949052	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967312"
+1506069949470	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069949473	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506069949474	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069949476	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506069949532	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[Parent 13316] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10636] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10636] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1506085274332	geckodriver	INFO	geckodriver 0.18.0
+1506085274378	geckodriver	INFO	Listening on 127.0.0.1:52717
+1506085276440	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506085277531	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506085278887	Marionette	INFO	Enabled via --marionette
+1506085283107	Marionette	INFO	Listening on port 52725
+1506085283209	Marionette	INFO	Listening on port 52725
+1506085284044	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506085284182	Marionette	DEBUG	loaded listener.js
+1506085285264	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506085298154	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506085298155	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506085299635	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506085301023	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506085301046	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506085301049	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506085301053	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506085303048	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506085303393	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/"
+1506085303568	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506085306064	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506085307735	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506085307748	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506085308357	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506085308454	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1506085308455	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483668"
+1506085308704	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506085308708	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506085308710	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506085308711	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506085312061	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506085312064	Marionette	DEBUG	Received DOM event "pageshow" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506085312382	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506085312385	Marionette	DEBUG	Received DOM event "pageshow" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506085313075	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483680"
+1506085313846	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[Child 13768] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1506085619001	geckodriver	INFO	geckodriver 0.18.0
+1506085619031	geckodriver	INFO	Listening on 127.0.0.1:52944
+1506085621142	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506085621730	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506085622640	Marionette	INFO	Enabled via --marionette
+[GPU 6420] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506085625410	Marionette	INFO	Listening on port 52950
+1506085625500	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506085625536	Marionette	INFO	Listening on port 52950
+1506085625596	Marionette	DEBUG	loaded listener.js
+1506085625892	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506085639366	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506085639367	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506085640635	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506085641715	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506085641742	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506085641764	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506085641769	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506085643030	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506085643237	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/"
+1506085643423	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506085645731	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506085647321	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506085647324	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506085647987	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506085648080	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483668"
+1506085648081	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1506085648368	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506085648373	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506085648374	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506085648378	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506085648433	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[Parent 13492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7348] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7348] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 6420] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1506428550447	geckodriver	INFO	geckodriver 0.18.0
+1506428550548	geckodriver	INFO	Listening on 127.0.0.1:63224
+1506428552704	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506428555041	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506428556824	Marionette	INFO	Enabled via --marionette
+[GPU 8704] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7736] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506428569078	Marionette	INFO	Listening on port 63230
+1506428569252	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506428569328	Marionette	INFO	Listening on port 63230
+1506428569431	Marionette	DEBUG	loaded listener.js
+1506428570272	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506428583391	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506428583392	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506428586093	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506428588495	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506428588503	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506428588509	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506428588517	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506428589506	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506428589511	Marionette	DEBUG	Received DOM event "pageshow" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506428590494	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506428590500	Marionette	DEBUG	Received DOM event "pageshow" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506428590533	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967307"
+1506428591689	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506428592191	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506428595439	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506428597166	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506428597166	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506428598127	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506428598282	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1506428598283	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967311"
+1506428598701	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506428598704	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506428598707	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506428598709	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506428601623	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506428601631	Marionette	DEBUG	Received DOM event "pageshow" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506428602353	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506428602355	Marionette	DEBUG	Received DOM event "pageshow" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506428602638	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967323"
+1506428603625	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506428603683	Marionette	INFO	New connections will no longer be accepted
+1506428623867	geckodriver	INFO	geckodriver 0.18.0
+1506428623948	geckodriver	INFO	Listening on 127.0.0.1:63361
+1506428625987	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506428626742	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506428627628	Marionette	INFO	Enabled via --marionette
+1506428630445	Marionette	INFO	Listening on port 63367
+1506428630467	Marionette	INFO	Listening on port 63367
+1506428631407	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506428631521	Marionette	DEBUG	loaded listener.js
+1506428632109	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506428647021	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506428647022	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506428649041	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506428651430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506428651434	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506428651436	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506428651441	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506428651499	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506428651779	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/"
+1506428651784	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/"
+1506428651970	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506428655060	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506428656286	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506428656297	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506428656898	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506428656991	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967312"
+1506428656993	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967313"
+1506428657284	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506428657287	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506428657288	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506428657291	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506428657963	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506428658014	Marionette	INFO	New connections will no longer be accepted
+1506429432126	geckodriver	INFO	geckodriver 0.18.0
+1506429432223	geckodriver	INFO	Listening on 127.0.0.1:63725
+1506429434283	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506429435276	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506429437035	Marionette	INFO	Enabled via --marionette
+[GPU 5832] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9544] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506429441510	Marionette	INFO	Listening on port 63731
+1506429442121	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506429442222	Marionette	INFO	Listening on port 63731
+1506429442266	Marionette	DEBUG	loaded listener.js
+1506429443440	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506429452185	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506429452185	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506429453830	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506429456385	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506429456391	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506429456391	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506429456396	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506429456716	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506429457009	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/"
+1506429457190	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506429460197	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506429461065	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506429461069	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506429461609	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506429461649	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967312"
+1506429461650	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967313"
+1506429461968	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506429461971	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506429461972	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506429461974	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506429462636	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506429462852	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506429463734	Marionette	DEBUG	Received DOM event "pagehide" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506429463736	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967325"
+1506429463834	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506429463837	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506429464374	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506429464448	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967323"
+1506429464449	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967319"
+1506429464450	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967320"
+1506429464719	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506429464722	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506429464722	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506429464724	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506429464776	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506429465143	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506429465987	Marionette	DEBUG	Received DOM event "pagehide" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506429465992	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
+1506429466720	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506429466729	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506429467371	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506429467465	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1506429467465	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967330"
+1506429467465	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967331"
+1506429467740	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506429467742	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506429467743	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506429467744	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506429467792	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+[Child 8940] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8940] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5832] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1506430836321	geckodriver	INFO	geckodriver 0.18.0
+1506430836392	geckodriver	INFO	Listening on 127.0.0.1:64530
+1506430838437	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506430839875	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506430841183	Marionette	INFO	Enabled via --marionette
+1506430844257	Marionette	INFO	Listening on port 64536
+1506430844361	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506430844405	Marionette	INFO	Listening on port 64536
+1506430844450	Marionette	DEBUG	loaded listener.js
+1506430844640	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506430860820	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506430860821	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506430862459	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506430864729	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506430864735	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506430864736	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506430864741	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506430865212	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506430865300	Marionette	INFO	New connections will no longer be accepted
+1506430921901	geckodriver	INFO	geckodriver 0.18.0
+1506430921963	geckodriver	INFO	Listening on 127.0.0.1:64614
+1506430924000	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506430924835	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506430925857	Marionette	INFO	Enabled via --marionette
+1506430928781	Marionette	INFO	Listening on port 64620
+1506430928838	Marionette	INFO	Listening on port 64620
+1506430929448	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506430929618	Marionette	DEBUG	loaded listener.js
+1506430930520	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506430940784	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506430940785	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506430942607	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506430945793	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506430945798	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506430945799	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506430945804	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506430945839	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506430946085	Marionette	DEBUG	Received DOM event "pagehide" for "https://letskodeit.teachable.com/"
+1506430946273	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506430948869	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506430949701	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506430949703	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506430950184	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506430950254	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1506430950255	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483668"
+1506430950527	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506430950530	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506430950531	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506430950534	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506430950578	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506430950778	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506430950795	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506430951666	Marionette	DEBUG	Received DOM event "pagehide" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506430951668	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483680"
+1506430952404	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506430952414	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506430952915	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506430952972	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483678"
+1506430952973	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483674"
+1506430952973	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483675"
+1506430953318	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506430953322	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506430953323	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506430953327	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506430953377	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506430953764	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506430954616	Marionette	DEBUG	Received DOM event "pagehide" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506430954618	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483691"
+1506430957016	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506430957020	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506430957558	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506430957648	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483689"
+1506430957648	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483685"
+1506430957649	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483686"
+1506430957912	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506430957914	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506430957915	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506430957917	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506430957979	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506430958035	Marionette	INFO	New connections will no longer be accepted
+1506431917253	geckodriver	INFO	geckodriver 0.18.0
+1506431917347	geckodriver	INFO	Listening on 127.0.0.1:65084
+1506431919380	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1506431920552	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506431922282	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+1506431926963	Marionette	INFO	Listening on port 65090
+[Child 7512] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1506431927082	Marionette	INFO	Listening on port 65090
+1506431927936	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506431928105	Marionette	DEBUG	loaded listener.js
+1506431928971	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506431938284	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506431938285	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506431940882	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506431943815	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506431943822	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506431943824	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506431943830	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506431944081	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506431944085	Marionette	DEBUG	Received DOM event "pageshow" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506431944902	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506431944910	Marionette	DEBUG	Received DOM event "pageshow" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506431945151	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967307"
+1506431946044	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506431946621	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506431950340	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506431951558	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506431951566	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506431952450	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506431952554	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1506431952555	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967311"
+1506431952982	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506431952985	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506431952989	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506431952992	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506431953047	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506431953350	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506431954143	Marionette	DEBUG	Received DOM event "pagehide" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506431954144	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967321"
+1506431954282	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506431954291	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?flow_school_id=42299"
+1506431955456	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506431955641	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967319"
+1506431955648	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967315"
+1506431955650	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967316"
+1506431956527	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506431956532	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506431956535	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506431956538	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506431956642	Marionette	DEBUG	Received DOM event "pageshow" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506431957284	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506431957743	Marionette	DEBUG	Received DOM event "pagehide" for "https://fast.wistia.com/embed/iframe_shim?domain=com"
+1506431957744	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967332"
+1506431959165	Marionette	DEBUG	Received DOM event "pagehide" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506431959168	Marionette	DEBUG	Received DOM event "unload" for "https://sso.teachable.com/secure/42299/users/sign_in?clean_login=true&reset_purchase_session=1"
+1506431960141	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://letskodeit.teachable.com/"
+1506431960265	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967330"
+1506431960265	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967326"
+1506431960267	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967327"
+1506431960848	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506431960853	Marionette	DEBUG	Received DOM event "pageshow" for "https://dialog.filestackapi.com/dialog/comm_iframe/"
+1506431960855	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506431960858	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.filestackapi.com/dialog/comm_iframe/"
+1506431960912	Marionette	DEBUG	Received DOM event "pageshow" for "https://letskodeit.teachable.com/"
+1506431960986	Marionette	INFO	New connections will no longer be accepted
+[Child 7768] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513

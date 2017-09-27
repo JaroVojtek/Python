@@ -1,0 +1,16 @@
+heroku create heightavgdatacollector
+heroku addson:create heroku-postgresql:hobby-dev --app heightavgdatacollector
+heroku config --app heightavgdatacollector
+notepad .gitignore
+git init
+git add .
+git commit -m "comment"
+heroku git:remote --app heightavgdatacollector
+git push heroku master
+heroku open - opens web site
+heroku run python - to open python session remotely on heroku (heroku is running on Linux, so you can use also bash command shell using command : heroku run bash	)
+connect to heroku DB :
+you have to have postgresql installed locally on your system
+then set environmental variables on systems for psql path
+and then
+heroku pg:psql --app heightavgdatacollector
